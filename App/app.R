@@ -94,7 +94,8 @@ server <- function(input, output, session) {
                               p("- Data accurate as of 2022-06-19. Please double check for updates on the glastonbury website for your final pick."),
                               p(""),
                               p("David Fallon, david.j.fallon@gmail.com."),
-                              tags$a(href = "https://www.linkedin.com/in/david-fallon-828973a6", "LinkedIn"),
+                              tags$a(href = "https://www.linkedin.com/in/david-fallon-828973a6", "LinkedIn"), p(""),
+                              tags$a(href = "https://github.com/fallonda/glasto_2022_lineup_picker", "Github repository"),
                               size = "l",
                               easyClose = T))
     })
